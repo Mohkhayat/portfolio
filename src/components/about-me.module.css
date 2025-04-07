@@ -1,0 +1,54 @@
+.aboutMe {
+  padding: 6rem 2rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.imageContainer {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  flex: 2;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-family: 'Sora', sans-serif;
+  text-align: left;
+}
+
+.description {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #444;
+}
